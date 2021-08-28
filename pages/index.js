@@ -109,8 +109,20 @@ export default function Home() {
             </p>
           </div>
           <div className="flex mt-32">
-            <div className="w-5/12 "></div>
-            <div className="flex-auto h-screen bg-lemonade "></div>
+            <div className="w-5/12 ">
+              <img
+                alt="Person producing music"
+                src="images/ableton-img-2.jpg"
+                className=""
+              />
+            </div>
+            <div className="flex-auto h-screen bg-lemonade ">
+              <img
+                alt="Person producing music"
+                src="images/ableton-img-3.jpg"
+                className=""
+              />
+            </div>
           </div>
         </div>
       </main>

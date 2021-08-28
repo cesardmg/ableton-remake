@@ -77,7 +77,7 @@ export default function Home() {
 
       <main>
         <div id="Hero Section and Title">
-          <div className="relative max-w-5xl mx-auto ">
+          <div className="relative max-w-5xl mx-auto">
             <img
               alt="Person producing music"
               src="images/ableton-img-1.jpg"
@@ -90,6 +90,16 @@ export default function Home() {
                 className="h-auto w-100 "
               />
             </div>
+          </div>
+        </div>
+
+        <div id="Content">
+          <div className="max-w-xl mx-auto mt-24">
+            <p className="text-2xl font-semibold text-justify">
+              We make Live, Push and Link — unique software and hardware for
+              music creation and performance. With these products, our community
+              of users creates amazing things.
+            </p>
           </div>
         </div>
       </main>

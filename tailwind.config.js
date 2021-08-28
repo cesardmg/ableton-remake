@@ -11,6 +11,9 @@ module.exports = {
         abletonOrange: "#FF764D",
         abletonBlue: "#0000FF",
       },
+      spacing: {
+        100: "27rem",
+      },
     },
   },
   variants: {

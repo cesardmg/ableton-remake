@@ -7,9 +7,7 @@ module.exports = {
       abletonOrange: "#FF764D",
       abletonBlue: "#0000FF",
     },
-    fontSize: {
-      mediumFont: "17px",
-    },
+
     extend: {},
   },
   variants: {

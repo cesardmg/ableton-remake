@@ -7,10 +7,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between px-4 py-3 ">
+      <header className="flex items-center justify-between px-4 py-5 ">
         <div className="flex px-4">
           <div>
-            <img src="images/ableton-logo.png" className="block w-auto h-11" />
+            {/*<img src="images/ableton-logo.png" className="block w-auto h-11" /> */}
           </div>
           <ul className="flex items-center gap-10 pl-10 font-semibold text-mediumFont ">
             <li>
@@ -62,9 +62,11 @@ export default function Home() {
         </div>
       </header>
 
-      <main></main>
+      <main>
+        <div></div>
+      </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 pt-60">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

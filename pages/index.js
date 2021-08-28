@@ -7,7 +7,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between px-4 py-5 ">
+      <header className="flex items-center justify-between w-full px-4 py-6 border-b-2 border-gray-200 ">
         <div className="flex px-4">
           <div>
             {/*<img src="images/ableton-logo.png" className="block w-auto h-11" /> */}
@@ -62,9 +62,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main>
-        <div></div>
-      </main>
+      <main></main>
 
       <footer className="flex items-center justify-center w-full h-24 pt-60">
         <a

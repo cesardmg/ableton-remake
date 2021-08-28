@@ -77,11 +77,16 @@ export default function Home() {
 
       <main>
         <div id="Hero Section and Title">
-          <div className="max-w-5xl mx-auto">
-            <img src="images/ableton-img-1.jpg" className="" />
+          <div className="relative max-w-5xl mx-auto">
             <img
+              alt="Person producing music"
+              src="images/ableton-img-1.jpg"
+              className=""
+            />
+            <img
+              alt="Ableton Logo"
               src="images/ableton-letters-icon-red.svg"
-              className="relative z-10 block w-2/5 h-auto mx-auto bottom-96"
+              className="absolute z-10 w-2/5 h-auto "
             />
           </div>
         </div>

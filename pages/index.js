@@ -39,7 +39,7 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <ul className="flex items-center gap-6 px-10 font-semibold ">
+          <ul className="flex items-center gap-6 pr-6 font-semibold ">
             <li>
               <a
                 href="#"
@@ -77,7 +77,13 @@ export default function Home() {
 
       <main>
         <div id="Hero Section and Title">
-          <img src="images/ableton-img-1.jpg" className="" />
+          <div className="max-w-5xl mx-auto">
+            <img src="images/ableton-img-1.jpg" className="" />
+            <img
+              src="images/ableton-letters-icon-red.svg"
+              className="relative z-10 block w-2/5 h-auto mx-auto bottom-96"
+            />
+          </div>
         </div>
       </main>
 

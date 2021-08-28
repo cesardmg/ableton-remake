@@ -7,12 +7,12 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between px-4 py-3">
-        <div className="flex">
+      <header className="flex items-center justify-between px-4 py-3 ">
+        <div className="flex px-4">
           <div>
             <img src="images/ableton-logo.png" className="block w-auto h-11" />
           </div>
-          <ul className="flex items-center gap-10 pl-10 font-semibold ">
+          <ul className="flex items-center gap-10 pl-10 font-semibold text-mediumFont ">
             <li>
               <a href="#">Live</a>{" "}
             </li>
@@ -39,17 +39,24 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <ul className="flex gap-3 font-semibold ">
+          <ul className="flex items-center gap-6 px-10 font-semibold ">
             <li>
-              <a href="#" className=" text-abletonBlue">
+              <a
+                href="#"
+                className="font-semibold text-mediumFont text-abletonBlue"
+              >
                 Try Live for free
               </a>{" "}
             </li>
             <li>
-              <a href="#">Account</a>
+              <a href="#" className="text-sm">
+                Account
+              </a>
             </li>
             <li>
-              <a href="#">Log out</a>
+              <a href="#" className="text-sm">
+                Log out
+              </a>
             </li>
           </ul>
         </div>

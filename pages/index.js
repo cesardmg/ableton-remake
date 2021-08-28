@@ -109,19 +109,23 @@ export default function Home() {
             </p>
           </div>
           <div className="flex mt-32">
-            <div className="w-5/12 ">
-              <img
-                alt="Person producing music"
-                src="images/ableton-img-2.jpg"
-                className=""
-              />
+            <div className="relative w-5/12 ">
+              {/* <div>
+                <img
+                  alt="Person producing music"
+                  src="images/ableton-img-2.jpg"
+                  className=""
+                />
+              </div> */}
             </div>
-            <div className="flex-auto h-screen bg-lemonade ">
-              <img
-                alt="Person producing music"
-                src="images/ableton-img-3.jpg"
-                className=""
-              />
+            <div className="relative flex-auto h-screen bg-lemonade ">
+              <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                <img
+                  alt="Person producing music"
+                  src="images/ableton-img-3.jpg"
+                  className="h-auto w-105 "
+                />
+              </div>
             </div>
           </div>
         </div>

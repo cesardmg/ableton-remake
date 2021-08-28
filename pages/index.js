@@ -108,6 +108,10 @@ export default function Home() {
               musicians, sound designers, and artists from across the world.
             </p>
           </div>
+          <div className="flex mt-32">
+            <div className="w-5/12 "></div>
+            <div className="flex-auto h-screen bg-lemonade "></div>
+          </div>
         </div>
       </main>
 

@@ -62,6 +62,19 @@ export default function Home() {
         </div>
       </header>
 
+      <div id="sticky navbar">
+        <ul className="flex p-6 pl-10 text-sm font-semibold gap-9">
+          <li>
+            <a href="#" className="text-abletonOrange">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#">Jobs</a>
+          </li>
+        </ul>
+      </div>
+
       <main></main>
 
       <footer className="flex items-center justify-center w-full h-24 pt-60">

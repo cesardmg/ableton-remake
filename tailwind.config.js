@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontSize: {
         mediumFont: "17px",
+        pxl: ["1.6rem", "2rem"],
       },
       colors: {
         abletonOrange: "#FF764D",

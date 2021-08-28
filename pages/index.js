@@ -75,7 +75,11 @@ export default function Home() {
         </ul>
       </div>
 
-      <main></main>
+      <main>
+        <div id="Hero Section and Title">
+          <img src="images/ableton-img-1.jpg" className="" />
+        </div>
+      </main>
 
       <footer className="flex items-center justify-center w-full h-24 pt-60">
         <a

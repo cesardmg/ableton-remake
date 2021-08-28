@@ -7,10 +7,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between w-full px-4 py-6 border-b-2 border-gray-200 ">
+      <header className="flex items-center justify-between w-full px-4 py-5 pl-6 border-b-2 border-gray-200 ">
         <div className="flex px-4">
           <div>
-            {/*<img src="images/ableton-logo.png" className="block w-auto h-11" /> */}
+            <img src="images/ableton-icon.svg" className="block w-auto h-7" />
           </div>
           <ul className="flex items-center gap-10 pl-10 font-semibold text-mediumFont ">
             <li>

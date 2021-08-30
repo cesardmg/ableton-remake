@@ -17,6 +17,14 @@ module.exports = {
         100: "27rem",
         105: "30rem",
       },
+      height: {
+        halfScreen: "50vh",
+        100: "48rem",
+        lemonadeBox: "58vh",
+      },
+      width: {
+        lemonadeBox: "58vh",
+      },
     },
   },
   variants: {

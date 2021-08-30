@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Ableton Remake</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between w-full px-4 py-5 pl-6 border-b-2 border-gray-200 ">
+      <header className="flex items-center justify-between px-4 py-5 pl-6 mx-auto border-b-2 border-gray-200 max-w-7xl ">
         <div className="flex px-4">
           <div>
             <img src="images/ableton-icon.svg" className="block w-auto h-7" />
@@ -62,8 +62,8 @@ export default function Home() {
         </div>
       </header>
 
-      <div id="sticky navbar">
-        <ul className="flex p-6 pl-10 text-sm font-semibold gap-9">
+      <div id="sticky navbar" className="mx-auto max-w-7xl">
+        <ul className="flex p-6 pl-10 text-sm font-semibold gap-9 ">
           <li>
             <a href="#" className="text-abletonOrange">
               About
@@ -75,7 +75,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <main className="max-w-xl mx-auto">
+      <main className="mx-auto max-w-7xl">
         <div id="Hero Section and Title">
           <div className="relative max-w-5xl mx-auto">
             <img
@@ -93,8 +93,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="Content">
-          <div className="flex flex-col gap-5 mx-auto mt-24 max-w-prose">
+        <div id="Content" className="mx-auto max-w-7xl">
+          <div
+            id="First Paragraph"
+            className="flex flex-col gap-5 mx-auto mt-24 max-w-prose"
+          >
             <p className="font-semibold leading-relaxed text-pxl">
               We make <span className="text-abletonBlue">Live</span>,{" "}
               <span className="text-abletonBlue">Push</span> and
@@ -108,30 +111,47 @@ export default function Home() {
               musicians, sound designers, and artists from across the world.
             </p>
           </div>
-          <div className="flex mt-32">
-            <div className="relative w-5/12 ">
-              <div className="absolute ">
-                <img
-                  alt="Person producing music"
-                  src="images/ableton-img-2.jpg"
-                  className=""
-                />
-              </div>
+
+          <div
+            id="First Paragraph"
+            className="flex flex-col gap-5 mx-auto mt-24 max-w-prose"
+          >
+            <p className="font-semibold leading-relaxed text-pxl">
+              We make <span className="text-abletonBlue">Live</span>,{" "}
+              <span className="text-abletonBlue">Push</span> and
+              <span className="text-abletonBlue"> Link</span> — unique software
+              and hardware for music creation and performance. With these
+              products, our community of users creates amazing things.
+            </p>
+            <p className="text-lg">
+              Ableton was founded in 1999 and released the first version of Live
+              in 2001. Our products are used by a community of dedicated
+              musicians, sound designers, and artists from across the world.
+            </p>
+          </div>
+          <div> </div>
+
+          <div className="relative flex flex-row mx-auto mt-32 h-100">
+            <div className="relative inline-block w-5/12 h-full bg-gray-300 ">
+              <img
+                alt="Person producing music"
+                src="images/ableton-img-2.jpg"
+                className=""
+              />
             </div>
-            <div className="relative flex-auto h-screen bg-lemonade ">
-              <div className="absolute transform -translate-x-1/2 -translate-y-1/2 w-105 top-1/2 left-1/2">
-                <img
-                  alt="Person producing music"
-                  src="images/ableton-img-3.jpg"
-                  className=""
-                />
-              </div>
+            <div className="relative inline-block w-7/12 h-100">
+              <img
+                alt="Person producing music"
+                src="images/ableton-img-3.jpg"
+                className=""
+              />
             </div>
+            <div className="absolute w-7/12 bg-opacity-25 h-100 bg-lemonade "></div>
           </div>
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 pt-60">
+      <footer className="flex items-center justify-center w-full h-24 pt-60 mb-96 mt-96">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

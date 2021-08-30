@@ -75,7 +75,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <main>
+      <main className="max-w-xl mx-auto">
         <div id="Hero Section and Title">
           <div className="relative max-w-5xl mx-auto">
             <img
@@ -110,20 +110,20 @@ export default function Home() {
           </div>
           <div className="flex mt-32">
             <div className="relative w-5/12 ">
-              {/* <div>
+              <div className="absolute ">
                 <img
                   alt="Person producing music"
                   src="images/ableton-img-2.jpg"
                   className=""
                 />
-              </div> */}
+              </div>
             </div>
             <div className="relative flex-auto h-screen bg-lemonade ">
-              <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+              <div className="absolute transform -translate-x-1/2 -translate-y-1/2 w-105 top-1/2 left-1/2">
                 <img
                   alt="Person producing music"
                   src="images/ableton-img-3.jpg"
-                  className="h-auto w-105 "
+                  className=""
                 />
               </div>
             </div>

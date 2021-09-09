@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function VercelFooter() {
   return (
     <footer className="flex items-center justify-center w-full h-24 pt-60 mb-96 mt-96">
       <a

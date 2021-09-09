@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import StickyNav from "../components/StickyNav";
 import Hero from "../components/Hero";
-import Footer from "../components/footer";
+import VercelFooter from "../components/VercelFooter";
 
 export default function Home() {
   return (
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
+      <VercelFooter />
     </div>
   );
 }

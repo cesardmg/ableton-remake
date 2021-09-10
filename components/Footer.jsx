@@ -8,6 +8,7 @@ export default function Footer() {
           className="w-48 h-auto pb-14 "
         ></img>
       </div>
+
       <div className="flex justify-between">
         <div className="flex flex-col bg-gray-100 ">
           <a>Register Live or Push</a>
@@ -31,8 +32,56 @@ export default function Footer() {
           <button></button>
         </div>
       </div>
-      <div>Third Box</div>
-      <div>Fourth Box</div>
+
+      <div className="flex justify-between">
+        <div className="flex flex-col bg-gray-100">
+          <h3>Community</h3>
+          <a>Find Ableton User Groups</a>
+          <a>Find Certified Training</a>
+          <a>Become a Certified Trainer</a>
+        </div>
+        <div className="flex flex-col bg-blue-100">
+          <h3>Distributors</h3>
+          <a>Find Distributors</a>
+          <a>Try Push in-store</a>
+        </div>
+        <div className="flex flex-col bg-red-100">
+          <h3>Language and Location</h3>
+          <div className="flex">
+            <p>English</p>
+            <p>Mexico</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex justify-between py-10 text-xs font-semibold">
+        <div>
+          <ul className="flex gap-5 ">
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Press Resources</a>
+            </li>
+            <li>
+              <a href="#">Legal Info</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Cookie Settings</a>
+            </li>
+            <li>
+              <a href="#">Imprint</a>
+            </li>
+          </ul>
+        </div>
+        <div className="flex">
+          <p>Made in Berlin</p>
+          <img src="images/icons/ableton-icon.svg" className="w-auto h-5 " />
+        </div>
+      </div>
     </div>
   );
 }

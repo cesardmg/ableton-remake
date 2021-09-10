@@ -10,7 +10,7 @@ import TextContent3 from "../components/text-content/text-content-3";
 import TextContent4 from "../components/text-content/text-content-4";
 import TextContent5 from "../components/text-content/text-content-5";
 import TextContent6 from "../components/text-content/text-content-6";
-import YellowArt from "../components/grid-art/yellow";
+import YellowArt from "../components/art-section/yellow";
 
 export default function Home() {
   return (

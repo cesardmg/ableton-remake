@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import StickyNav from "../components/StickyNav";
 import Hero from "../components/Hero";
 import DummyVideo from "../components/DummyVideo";
+import Footer from "../components/Footer";
 import VercelFooter from "../components/VercelFooter";
 import TextContent1 from "../components/text-content/text-content-1";
 import TextContent2 from "../components/text-content/text-content-2";
@@ -32,7 +33,8 @@ export default function Home() {
         <TextContent5 />
         <TextContent6 />
       </main>
-      <VercelFooter />
+      <Footer />
+      {/* <VercelFooter /> */}
     </div>
   );
 }

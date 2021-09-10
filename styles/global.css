@@ -1,0 +1,13 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-style {
+    @apply flex flex-col gap-5 mx-auto mt-24 text-lg max-w-prose;
+  }
+  .text-title {
+    @apply font-semibold leading-relaxed text-pxl;
+  }
+}

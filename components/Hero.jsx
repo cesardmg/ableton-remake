@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="absolute w-auto h-20 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           <img
             alt="Ableton Logo"
-            src="images/ableton-letters-icon-red.svg"
+            src="images/icons/ableton-letters-icon-red.svg"
             className="h-auto w-100 "
           />
         </div>

@@ -1,14 +1,11 @@
 export default function TextContent3() {
   return (
-    <div
-      id="3rd Paragraph"
-      className="flex flex-col gap-5 mx-auto mt-24 max-w-prose"
-    >
-      <h2 className="font-semibold leading-relaxed text-pxl">
+    <div id="3rd Paragraph" className="text-style">
+      <h2 className="text-title">
         We are more than 350 people from 30 different countries divided between
         our headquarters in Berlin and our offices in Los Angeles and Tokyo.
       </h2>
-      <p className="text-lg">
+      <p>
         Most of us are active musicians, producers, and DJs, and many of us use
         Live and Push every day. We come from a wide range of cultural and
         professional backgrounds. Some of us have PhDs, some are self-taught,

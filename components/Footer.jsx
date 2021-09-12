@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="w-5/6 mx-auto max-w-7xl mb-96 mt-96">
+    <div className="w-5/6 mx-auto mb-32 max-w-7xl mt-96">
       <div>
         <img
           alt="Ableton Logo"
@@ -9,12 +9,38 @@ export default function Footer() {
         ></img>
       </div>
 
-      <div className="flex justify-between mb-20 leading-8 text-mediumFont">
+      <div className="flex justify-between mb-16 leading-8 text-mediumFont">
         <div className="flex justify-between w-2/3 ">
           <div className="flex flex-col ">
             <a>Register Live or Push </a>
             <a>About Ableton</a>
             <a>Jobs</a>
+            <div className="flex pt-2 gap-x-2">
+              <a href="#">
+                <img
+                  className="w-10 h-auto"
+                  src="/images/icons/facebook-icon.png"
+                ></img>{" "}
+              </a>
+              <a href="#">
+                <img
+                  className="w-10 h-auto"
+                  src="/images/icons/twitter-icon.png"
+                ></img>
+              </a>
+              <a href="#">
+                <img
+                  className="w-10 h-auto"
+                  src="/images/icons/youtube-icon.png"
+                ></img>
+              </a>
+              <a href="#">
+                <img
+                  className="w-10 h-auto"
+                  src="/images/icons/instagram-icon.png"
+                ></img>
+              </a>
+            </div>
           </div>
           <div className="flex flex-col w-3/6 leading-7 ">
             <h3 className="font-semibold">Education</h3>
@@ -29,9 +55,15 @@ export default function Footer() {
             Enter your email address to stay up to date with the latest offers,
             tutorials, downloads, surveys and more.
           </p>
-          <form></form>
-          <input></input>
-          <button></button>
+          <form className="flex mt-3 ">
+            <input
+              className="flex-auto px-4 py-2 text-lg rounded-none bg-abletonGray"
+              placeholder="Email Adress"
+            ></input>
+            <button className="px-6 py-2 text-lg font-semibold text-white rounded-none bg-abletonBlue ">
+              Sign Up
+            </button>
+          </form>
         </div>
       </div>
 
@@ -58,9 +90,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between py-10 text-xs font-semibold">
+      <div className="flex justify-between text-xs font-semibold">
         <div>
-          <ul className="flex gap-5 ">
+          <ul className="flex gap-5">
             <li>
               <a href="#">Contact Us</a>
             </li>

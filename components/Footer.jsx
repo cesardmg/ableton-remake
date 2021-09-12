@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="max-w-4xl mx-auto mb-96 mt-96">
+    <div className="w-5/6 mx-auto max-w-7xl mb-96 mt-96">
       <div>
         <img
           alt="Ableton Logo"
@@ -9,20 +9,22 @@ export default function Footer() {
         ></img>
       </div>
 
-      <div className="flex justify-between">
-        <div className="flex flex-col bg-gray-100 ">
-          <a>Register Live or Push</a>
-          <a>About Ableton</a>
-          <a>Jobs</a>
+      <div className="flex justify-between mb-20 leading-8 text-mediumFont">
+        <div className="flex justify-between w-2/3 ">
+          <div className="flex flex-col ">
+            <a>Register Live or Push </a>
+            <a>About Ableton</a>
+            <a>Jobs</a>
+          </div>
+          <div className="flex flex-col w-3/6 leading-7 ">
+            <h3 className="font-semibold">Education</h3>
+            <a>Offers for students and teachers</a>
+            <a>Ableton for the Classroom</a>
+            <a>Ableton for Colleges and Universities</a>
+          </div>
         </div>
-        <div className="flex flex-col bg-blue-200">
-          <h3>Education</h3>
-          <a>Offers for students and teachers</a>
-          <a>Ableton for the Classroom</a>
-          <a>Ableton for Colleges and Universities</a>
-        </div>
-        <div className="flex flex-col bg-red-50">
-          <h3>Sign up to our newsletter</h3>
+        <div className="flex flex-col w-2/5 ">
+          <h3 className="font-semibold">Sign up to our newsletter</h3>
           <p>
             Enter your email address to stay up to date with the latest offers,
             tutorials, downloads, surveys and more.
@@ -33,21 +35,23 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between">
-        <div className="flex flex-col bg-gray-100">
-          <h3>Community</h3>
-          <a>Find Ableton User Groups</a>
-          <a>Find Certified Training</a>
-          <a>Become a Certified Trainer</a>
+      <div className="flex justify-between mb-20 leading-8 text-mediumFont">
+        <div className="flex justify-between w-2/3 ">
+          <div className="flex flex-col ">
+            <h3 className="font-semibold">Community</h3>
+            <a>Find Ableton User Groups</a>
+            <a>Find Certified Training</a>
+            <a>Become a Certified Trainer</a>
+          </div>
+          <div className="flex flex-col w-3/6 leading-7">
+            <h3 className="font-semibold">Distributors</h3>
+            <a>Find Distributors</a>
+            <a>Try Push in-store</a>
+          </div>
         </div>
-        <div className="flex flex-col bg-blue-100">
-          <h3>Distributors</h3>
-          <a>Find Distributors</a>
-          <a>Try Push in-store</a>
-        </div>
-        <div className="flex flex-col bg-red-100">
-          <h3>Language and Location</h3>
-          <div className="flex">
+        <div className="flex flex-col w-2/5 ">
+          <h3 className="font-semibold">Language and Location</h3>
+          <div className="flex gap-x-6">
             <p>English</p>
             <p>Mexico</p>
           </div>
@@ -77,7 +81,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex">
+        <div className="flex items-center gap-x-3">
           <p>Made in Berlin</p>
           <img src="images/icons/ableton-icon.svg" className="w-auto h-5 " />
         </div>

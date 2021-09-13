@@ -12,28 +12,32 @@ import TextContent4 from "../components/text-content/text-content-4";
 import TextContent5 from "../components/text-content/text-content-5";
 import TextContent6 from "../components/text-content/text-content-6";
 import YellowArt from "../components/art-section/yellow";
+import BlueArt from "../components/art-section/blue";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Ableton Remake</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar />
-      <StickyNav />
-      <main className="mx-auto max-w-7xl">
-        <Hero />
-        <TextContent1 />
-        <YellowArt />
-        <TextContent2 />
-        <DummyVideo />
-        <TextContent3 />
-        <TextContent4 />
-        <TextContent5 />
-        <TextContent6 />
-      </main>
-      <Footer />
+    <div className="bg-backgroundGray">
+      <div className="mx-auto bg-white max-w-7xl">
+        <Head>
+          <title>Ableton Remake</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <Navbar />
+        <StickyNav />
+        <main>
+          <Hero />
+          <TextContent1 />
+          <YellowArt />
+          <TextContent2 />
+          <DummyVideo />
+          <TextContent3 />
+          <TextContent4 />
+          <TextContent5 />
+          <TextContent6 />
+          <BlueArt />
+        </main>
+        <Footer />
+      </div>
       {/* <VercelFooter /> */}
     </div>
   );

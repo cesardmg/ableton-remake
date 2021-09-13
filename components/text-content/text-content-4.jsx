@@ -1,6 +1,6 @@
 export default function TextContent4() {
   return (
-    <div id="4th Paragraph" className="text-style">
+    <div id="4th Paragraph" className=" text-style">
       <h2 className="text-title">
         We believe it takes focus to create truly outstanding instruments. We
         only work on a few products and we strive to make them great.

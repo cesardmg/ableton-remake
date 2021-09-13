@@ -40,6 +40,7 @@ module.exports = {
       },
       width: {
         lemonadeBox: "58vh",
+        "50vh": "50vh",
       },
     },
   },

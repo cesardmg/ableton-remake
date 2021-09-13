@@ -11,7 +11,9 @@ import TextContent3 from "../components/text-content/text-content-3";
 import TextContent4 from "../components/text-content/text-content-4";
 import TextContent5 from "../components/text-content/text-content-5";
 import TextContent6 from "../components/text-content/text-content-6";
+import SampleImage from "../components/SampleImage";
 import YellowArt from "../components/art-section/yellow";
+import PurpleArt from "../components/art-section/purple";
 import BlueArt from "../components/art-section/blue";
 
 export default function Home() {
@@ -32,7 +34,9 @@ export default function Home() {
           <DummyVideo />
           <TextContent3 />
           <TextContent4 />
+          <SampleImage />
           <TextContent5 />
+          <PurpleArt />
           <TextContent6 />
           <BlueArt />
         </main>

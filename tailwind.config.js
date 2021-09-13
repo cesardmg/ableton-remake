@@ -14,6 +14,7 @@ module.exports = {
         lemonade: "#FBFFA7",
         abletonGray: "#EEEEEE",
         backgroundGray: "#F3F3F3",
+        blueArt: "#B1C5FF",
       },
       spacing: {
         100: "27rem",

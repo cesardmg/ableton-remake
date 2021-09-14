@@ -1,6 +1,6 @@
 export default function VercelFooter() {
   return (
-    <footer className="flex items-center justify-center w-full h-24 mb-4 mt-96">
+    <footer className="flex items-center justify-center w-full h-24 mt-10 mb-4">
       <a
         className="flex items-center justify-center"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

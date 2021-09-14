@@ -3,8 +3,8 @@ import Chevron from "./Chevron";
 export default function Footer() {
   return (
     <>
-      <div className="border-b-2 mt-96 "></div>
-      <div className="w-5/6 mx-auto mb-32 mt-28 max-w-7xl ">
+      <div className="border-b-2"></div>
+      <div className="w-5/6 mx-auto mt-28 max-w-7xl ">
         <div>
           <img
             alt="Ableton Logo"

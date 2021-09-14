@@ -2,7 +2,7 @@ import Chevron from "../Chevron";
 
 export default function BlueArt() {
   return (
-    <div className="flex justify-center mx-auto mt-20 h-50rem max-w-7xl h-screen-xl max-h-50rem ">
+    <div className="flex content-center justify-center mt-20 h-50rem max-w-7xl ">
       <img
         className="object-cover object-right w-5/12 h-2/3 "
         src="images\blue-art\ableton-img-9.jpg"

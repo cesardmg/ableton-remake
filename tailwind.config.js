@@ -33,6 +33,7 @@ module.exports = {
         lemonadeBox: "58vh",
         "100em": "100em",
         "80rem": "80rem",
+        "100rem": "100rem",
         "50rem": "50rem",
         "41rem": "41rem",
         "50%": "50%",
@@ -41,6 +42,10 @@ module.exports = {
       width: {
         lemonadeBox: "58vh",
         "50vh": "50vh",
+      },
+      backgroundImage: {
+        "purple-img1":
+          "url('https://ableton-production.imgix.net/about/photo-7.jpg')",
       },
     },
   },

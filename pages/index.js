@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import StickyNav from "../components/StickyNav";
@@ -29,20 +30,20 @@ export default function Home() {
         <main>
           <Hero />
           <TextContent1 />
-          <YellowArt />
+          {/* <YellowArt /> */}
           <TextContent2 />
           <DummyVideo />
           <TextContent3 />
           <TextContent4 />
           <SampleImage />
           <TextContent5 />
-          <PurpleArt />
+          {/* <PurpleArt /> */}
           <TextContent6 />
           <BlueArt />
         </main>
         <Footer />
+        <VercelFooter />
       </div>
-      {/* <VercelFooter /> */}
     </div>
   );
 }

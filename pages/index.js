@@ -20,7 +20,7 @@ import BlueArt from "../components/art-section/blue";
 export default function Home() {
   return (
     <div className="bg-backgroundGray">
-      <div className="mx-auto bg-white max-w-7xl">
+      <div className="mx-auto bg-white md:max-w-7xl ">
         <Head>
           <title>Ableton Remake</title>
           <link rel="icon" href="/favicon.ico" />
@@ -39,9 +39,9 @@ export default function Home() {
           <TextContent5 />
           {/* <PurpleArt /> */}
           <TextContent6 />
-          <BlueArt />
+          {/* <BlueArt /> */}
         </main>
-        <Footer />
+        {/* <Footer /> */}
         <VercelFooter />
       </div>
     </div>

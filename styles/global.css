@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 @layer components {
-  .text-style {
-    @apply flex flex-col gap-5 mx-auto mt-24 text-lg max-w-prose;
-  }
   .text-title {
-    @apply font-semibold leading-relaxed text-pxl;
+    @apply text-lg font-semibold leading-relaxed tracking-tight lg:text-pxl;
+  }
+  .text-style {
+    @apply flex flex-col gap-5 px-8 mx-auto mt-24 text-sm leading-6 md:text-lg max-w-prose;
   }
 }

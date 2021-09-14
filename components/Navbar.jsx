@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="flex items-center justify-between px-4 py-5 pl-6 mx-auto border-b-2 border-gray-200 max-w-7xl ">
+    <header className="items-center justify-between hidden px-4 py-5 pl-6 mx-auto border-b-2 border-gray-200 md:flex max-w-7xl">
       <div className="flex px-4">
         <div>
           <img

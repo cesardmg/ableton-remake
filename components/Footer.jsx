@@ -4,18 +4,34 @@ export default function Footer() {
   return (
     <>
       <div className="border-b-2"></div>
-      <div className="w-5/6 mx-auto mt-28 max-w-7xl ">
-        <div>
+      <div className="w-5/6 mx-auto mt-10 lg:mt-28 max-w-7xl ">
+        <div id="logo">
           <img
             alt="Ableton Logo"
             src="images/icons/ableton-letters-icon.svg"
-            className="w-48 h-auto pb-14 "
+            className="w-6/12 h-auto lg:w-48 pb-14"
           ></img>
         </div>
+        <div id="newsletter form" className="lg:flex lg:flex-col lg:w-2/5 ">
+          <h3 className="font-semibold">Sign up to our newsletter</h3>
+          <p>
+            Enter your email address to stay up to date with the latest offers,
+            tutorials, downloads, surveys and more.
+          </p>
+          <form className="flex mt-3 ">
+            <input
+              className="flex-auto px-4 py-2 text-lg rounded-none bg-abletonGray"
+              placeholder="Email Adress"
+            ></input>
+            <button className="px-6 py-2 text-lg font-semibold text-white rounded-none bg-abletonBlue ">
+              Sign Up
+            </button>
+          </form>
+        </div>
 
-        <div className="flex justify-between mb-16 leading-8 text-mediumFont">
-          <div className="flex justify-between w-2/3 ">
-            <div className="flex flex-col ">
+        <div className="justify-between mb-16 leading-8 text-mediumFont">
+          <div className="justify-between w-2/3 ">
+            <div className="">
               <a>
                 Register Live or Push
                 <Chevron />
@@ -71,22 +87,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col w-2/5 ">
-            <h3 className="font-semibold">Sign up to our newsletter</h3>
-            <p>
-              Enter your email address to stay up to date with the latest
-              offers, tutorials, downloads, surveys and more.
-            </p>
-            <form className="flex mt-3 ">
-              <input
-                className="flex-auto px-4 py-2 text-lg rounded-none bg-abletonGray"
-                placeholder="Email Adress"
-              ></input>
-              <button className="px-6 py-2 text-lg font-semibold text-white rounded-none bg-abletonBlue ">
-                Sign Up
-              </button>
-            </form>
-          </div>
         </div>
 
         <div className="flex justify-between mb-16 leading-8 text-mediumFont">
@@ -138,9 +138,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-between text-xs font-semibold">
+        <div className="text-xs font-semibold lg:flex lg:justify-between">
           <div>
-            <ul className="flex gap-5">
+            <ul className="flex flex-col gap-2 lg:flex lg:gap-5">
               <li>
                 <a href="#">Contact Us</a>
               </li>
@@ -161,8 +161,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex items-center gap-x-3">
-            <p>Made in Berlin</p>
+          <div className="flex mt-11 lg:items-center gap-x-3 ">
+            <p className="order-last lg:order-first">Made in Berlin</p>
             <img src="images/icons/ableton-icon.svg" className="w-auto h-5 " />
           </div>
         </div>

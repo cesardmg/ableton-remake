@@ -41,7 +41,7 @@ export default function Home() {
           <TextContent6 />
           {/* <BlueArt /> */}
         </main>
-        {/* <Footer /> */}
+        <Footer />
         <VercelFooter />
       </div>
     </div>

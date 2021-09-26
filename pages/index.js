@@ -30,7 +30,7 @@ export default function Home() {
         <main>
           <Hero />
           <TextContent1 />
-          {/* <YellowArt /> */}
+          <YellowArt />
           <TextContent2 />
           <DummyVideo />
           <TextContent3 />
@@ -39,7 +39,7 @@ export default function Home() {
           <TextContent5 />
           {/* <PurpleArt /> */}
           <TextContent6 />
-          {/* <BlueArt /> */}
+          <BlueArt />
         </main>
         <Footer />
         <VercelFooter />

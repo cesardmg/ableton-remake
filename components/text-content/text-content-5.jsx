@@ -10,7 +10,7 @@ export default function TextContent5() {
         personally and professionally, and we strive to create a wealth of
         opportunities to learn from and with each other. <br />
       </p>
-      <p>
+      <p className="mt-5">
         Alongside an internal training program, employees are actively supported
         in acquiring new knowledge and skills, and coached on applying these in
         their daily work. In addition, staff-organized development and music

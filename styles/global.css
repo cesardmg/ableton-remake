@@ -5,10 +5,10 @@
 
 @layer components {
   .text-style {
-    @apply mt-10 px-80 md:text-lg;
+    @apply px-8 mt-10 text-sm leading-relaxed lg:px-80 md:text-lg;
   }
   .text-title {
-    @apply mb-5 font-semibold leading-10 text-pxl;
+    @apply mb-5 text-lg font-semibold leading-7 lg:leading-10 lg:text-pxl;
   }
 }
 

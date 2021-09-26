@@ -139,9 +139,9 @@ export default function Footer() {
           </div>
         </div>
         {/*  -----------------------------Last---------------------------------- */}
-        <div className="font-semibold mt-9 lg:mt-0 lg:flex lg:justify-between">
+        <div className="items-center text-xs font-semibold mt-9 lg:mt-0 lg:flex lg:justify-between">
           <div>
-            <ul className="flex flex-col gap-3 lg:flex lg:gap-5">
+            <ul className="flex flex-col gap-3 lg:flex-row lg:flex lg:gap-5">
               <li>
                 <a href="#">Contact Us</a>
               </li>
@@ -162,7 +162,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex mt-11 lg:items-center gap-x-3 ">
+          <div className="flex lg:mt-0 mt-11 lg:items-center gap-x-3 ">
             <p className="order-last lg:order-first">Made in Berlin</p>
             <img src="images/icons/ableton-icon.svg" className="w-auto h-5 " />
           </div>

@@ -2,9 +2,10 @@ import Chevron from "./Chevron";
 
 export default function Footer() {
   return (
-    <div className="text-sm">
+    <div className="text-sm lg:text-base">
       <div className="border-b-2 "></div>
-      <div className="w-5/6 mx-auto mt-10 lg:text-base lg:mt-28 max-w-7xl">
+      {/*  -----------------------------Logo---------------------------------- */}
+      <div className="w-5/6 mx-auto mt-10 lg:mt-28 max-w-7xl">
         <div id="logo">
           <img
             alt="Ableton Logo"
@@ -12,40 +13,42 @@ export default function Footer() {
             className="w-5/12 h-auto lg:w-48 pb-14"
           ></img>
         </div>
-        <div id="newsletter form" className="lg:flex lg:flex-col lg:w-2/5 ">
-          <div className="leading-6 lg:leading-normal">
-            <h3 className="font-semibold">Sign up to our newsletter</h3>
-            <p>
-              Enter your email address to stay up to date with the latest
-              offers, tutorials, downloads, surveys and more.
-            </p>
-          </div>
-          <form className="flex mt-3 ">
-            <input
-              className="flex-auto px-4 py-2 rounded-none lg:text-lg lg:py-2 bg-abletonGray"
-              placeholder="Email Adress"
-            ></input>
-            <button className="px-6 font-semibold text-white rounded-none lg:text-lg lg:py-2 bg-abletonBlue ">
-              Sign Up
-            </button>
-          </form>
-        </div>
-        <div className="lg:justify-between mt-9 lg:mt-0 lg:mb-16 lg:leading-8 lg:text-mediumFont">
-          <div className="lg:justify-between lg:w-2/3 ">
-            <div className="flex flex-col gap-y-1">
-              <a>
-                Register Live or Push
-                <Chevron />
-              </a>
-              <a>
-                About Ableton
-                <Chevron />
-              </a>
-              <a>
-                Jobs
-                <Chevron />
-              </a>
+        {/*  --------------------------------------------------------------- */}
+        <div className="lg:justify-between lg:items-center lg:flex mt-9 lg:mt-0 lg:mb-16 lg:leading-8 ">
+          <div
+            id="newsletter form"
+            className="order-last lg:flex lg:flex-col lg:w-2/5 "
+          >
+            <div className="leading-6 lg:leading-normal">
+              <h3 className="font-semibold">Sign up to our newsletter</h3>
+              <p>
+                Enter your email address to stay up to date with the latest
+                offers, tutorials, downloads, surveys and more.
+              </p>
             </div>
+            <form className="flex mt-3 ">
+              <input
+                className="flex-auto px-4 py-2 rounded-none lg:py-2 bg-abletonGray"
+                placeholder="Email Adress"
+              ></input>
+              <button className="px-6 font-semibold text-white rounded-none lg:py-2 bg-abletonBlue ">
+                Sign Up
+              </button>
+            </form>
+          </div>
+          <div className="flex flex-col order-first gap-y-1 lg:leading-normal">
+            <a>
+              Register Live or Push
+              <Chevron />
+            </a>
+            <a>
+              About Ableton
+              <Chevron />
+            </a>
+            <a>
+              Jobs
+              <Chevron />
+            </a>
             <div className="flex pt-2 mt-1 gap-x-2 lg:mt-0">
               <a href="#">
                 <img
@@ -72,25 +75,27 @@ export default function Footer() {
                 ></img>
               </a>
             </div>
+          </div>
 
-            <div className="flex flex-col mt-10 gap-y-1 lg:gap-y-0 lg:w-3/6 lg:leading-7 ">
-              <h3 className="font-semibold">Education</h3>
-              <a>
-                Offers for students and teachers
-                <Chevron />
-              </a>
-              <a>
-                Ableton for the Classroom
-                <Chevron />
-              </a>
-              <a>
-                Ableton for Colleges and Universities
-                <Chevron />
-              </a>
-            </div>
+          <div className="flex flex-col mt-10 lg:justify-end lg: gap-y-1 lg:gap-y-0 lg:w-3/6 lg:leading-7 ">
+            <h3 className="font-semibold">Education</h3>
+            <a>
+              Offers for students and teachers
+              <Chevron />
+            </a>
+            <a>
+              Ableton for the Classroom
+              <Chevron />
+            </a>
+            <a>
+              Ableton for Colleges and Universities
+              <Chevron />
+            </a>
           </div>
         </div>
-        <div className=" mt-9 lg:mt-0 lg:flex lg:justify-between lg:mb-16 lg:leading-8 lg:text-mediumFont">
+        {/*  --------------------------------------------------------------- */}
+
+        <div className=" mt-9 lg:mt-0 lg:flex lg:justify-between lg:mb-16 lg:leading-8">
           <div className="lg:flex lg:justify-between lg:w-2/3 ">
             <div className="flex flex-col gap-y-1 lg:gap-y-0 ">
               <h3 className="font-semibold">Community</h3>

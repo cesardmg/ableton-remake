@@ -1,7 +1,7 @@
 export default function PurpleArt() {
   return (
-    <div className="relative flex items-center justify-between my-20 lg:overflow-hidden lg:my-48 ">
-      <div className="absolute z-0 lg:max-h-full left-16 lg:left-52 w-purpleArtBW h-purpleArtBH bg-purpleArt"></div>
+    <div className="relative flex items-center justify-between my-20 lg:my-48 ">
+      <div className="absolute z-0 left-16 lg:left-52 w-purpleArtBW h-purpleArtBH bg-purpleArt"></div>
       <img
         className="z-10 object-cover w-purpleArt1W h-purpleArt1H ml-9 lg:ml-20"
         src="images/purple-art/ableton-img-7.jpg"

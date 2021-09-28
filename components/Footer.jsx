@@ -10,14 +10,14 @@ export default function Footer() {
           <img
             alt="Ableton Logo"
             src="images/icons/ableton-letters-icon.svg"
-            className="w-5/12 h-auto lg:w-48 pb-14"
+            className="w-5/12 h-auto lg:w-48 lg:pb-14"
           ></img>
         </div>
         {/*  --------------------------------------------------------------- */}
-        <div className="lg:justify-between lg:items-center lg:flex mt-9 lg:mt-0 lg:mb-16 lg:leading-8 ">
+        <div className="lg:justify-between lg:flex mt-9 lg:mt-0 lg:mb-6 lg:leading-8 ">
           <div
             id="newsletter form"
-            className="order-last lg:flex lg:flex-col lg:w-2/5 "
+            className="order-last lg:flex lg:flex-col lg:w-6/12 "
           >
             <div className="leading-6 lg:leading-normal">
               <h3 className="font-semibold">Sign up to our newsletter</h3>
@@ -26,7 +26,7 @@ export default function Footer() {
                 offers, tutorials, downloads, surveys and more.
               </p>
             </div>
-            <form className="flex mt-3 ">
+            <form className="flex mt-3 lg:text-sm ">
               <input
                 className="flex-auto px-4 py-2 rounded-none lg:py-2 bg-abletonGray"
                 placeholder="Email Adress"
@@ -36,7 +36,7 @@ export default function Footer() {
               </button>
             </form>
           </div>
-          <div className="flex flex-col order-first gap-y-1 lg:leading-normal">
+          <div className="flex flex-col order-first mt-5 lg:mt-0 lg:w-4/12 gap-y-1 lg:leading-normal">
             <a>
               Register Live or Push
               <Chevron />
@@ -52,32 +52,32 @@ export default function Footer() {
             <div className="flex pt-2 mt-1 gap-x-2 lg:mt-0">
               <a href="#">
                 <img
-                  className="h-auto w-9 lg:w-10"
+                  className="h-auto w-9 "
                   src="/images/icons/facebook-icon.png"
                 ></img>
               </a>
               <a href="#">
                 <img
-                  className="h-auto w-9 lg:w-10"
+                  className="h-auto w-9"
                   src="/images/icons/twitter-icon.png"
                 ></img>
               </a>
               <a href="#">
                 <img
-                  className="h-auto w-9 lg:w-10"
+                  className="h-auto w-9"
                   src="/images/icons/youtube-icon.png"
                 ></img>
               </a>
               <a href="#">
                 <img
-                  className="h-auto w-9 lg:w-10"
+                  className="h-auto w-9"
                   src="/images/icons/instagram-icon.png"
                 ></img>
               </a>
             </div>
           </div>
 
-          <div className="flex flex-col mt-10 lg:justify-end lg: gap-y-1 lg:gap-y-0 lg:w-3/6 lg:leading-7 ">
+          <div className="flex flex-col mt-10 lg:mt-0 gap-y-1 lg:gap-y-0 lg:w-4/12 lg:leading-7 ">
             <h3 className="font-semibold">Education</h3>
             <a>
               Offers for students and teachers
@@ -96,36 +96,35 @@ export default function Footer() {
         {/*  --------------------------------------------------------------- */}
 
         <div className=" mt-9 lg:mt-0 lg:flex lg:justify-between lg:mb-16 lg:leading-8">
-          <div className="lg:flex lg:justify-between lg:w-2/3 ">
-            <div className="flex flex-col gap-y-1 lg:gap-y-0 ">
-              <h3 className="font-semibold">Community</h3>
-              <a>
-                Find Ableton User Groups
-                <Chevron />
-              </a>
-              <a>
-                Find Certified Training
-                <Chevron />
-              </a>
-              <a>
-                Become a Certified Trainer
-                <Chevron />
-              </a>
-            </div>
-            <div className="flex flex-col mt-9 lg:mt-0 gap-y-1 lg:gap-y-0 lg:w-3/6 lg:leading-7">
-              <h3 className="font-semibold">Distributors</h3>
-              <a>
-                Find Distributors <Chevron />
-              </a>
-              <a>
-                Try Push in-store
-                <Chevron />
-              </a>
-            </div>
+          <div className="flex flex-col gap-y-1 lg:gap-y-0 lg:w-4/12 ">
+            <h3 className="font-semibold">Community</h3>
+            <a>
+              Find Ableton User Groups
+              <Chevron />
+            </a>
+            <a>
+              Find Certified Training
+              <Chevron />
+            </a>
+            <a>
+              Become a Certified Trainer
+              <Chevron />
+            </a>
           </div>
-          <div className="flex flex-col mt-6 lg:mt-0 lg:w-2/5 ">
+          <div className="flex flex-col mt-9 lg:mt-0 gap-y-1 lg:gap-y-0 lg:leading-7 lg:w-4/12">
+            <h3 className="font-semibold">Distributors</h3>
+            <a>
+              Find Distributors <Chevron />
+            </a>
+            <a>
+              Try Push in-store
+              <Chevron />
+            </a>
+          </div>
+
+          <div className="flex flex-col mt-6 lg:mt-0 lg:w-6/12 ">
             <h3 className="my-3 font-semibold ">Language and Location</h3>
-            <div className="flex  gap-x-0.5 ">
+            <div className="flex  gap-x-0.5 lg:text-xs ">
               <button className="px-2 py-2 font-semibold rounded-none bg-abletonGray">
                 English
                 <img

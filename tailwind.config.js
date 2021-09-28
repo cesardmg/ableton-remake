@@ -15,6 +15,7 @@ module.exports = {
         abletonGray: "#EEEEEE",
         backgroundGray: "#F3F3F3",
         blueArt: "#B1C5FF",
+        purpleArt: "#D5B3FF ",
       },
       spacing: {
         100: "27rem",
@@ -38,10 +39,16 @@ module.exports = {
         "41rem": "41rem",
         "50%": "50%",
         "50vh": "50vh",
+        purpleArt1H: "25vw",
+        purpleArt2H: "41vw",
+        purpleArtBH: "58vw",
       },
       width: {
         lemonadeBox: "58vh",
         "50vh": "50vh",
+        purpleArt1W: "33vw",
+        purpleArt2W: "41vw",
+        purpleArtBW: "66vw",
       },
       backgroundImage: {
         "purple-img1":

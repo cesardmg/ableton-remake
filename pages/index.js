@@ -37,7 +37,7 @@ export default function Home() {
           <TextContent4 />
           <SampleImage />
           <TextContent5 />
-          {/* <PurpleArt /> */}
+          <PurpleArt />
           <TextContent6 />
           <BlueArt />
         </main>

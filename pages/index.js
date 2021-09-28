@@ -14,6 +14,7 @@ import TextContent5 from "../components/text-content/text-content-5";
 import TextContent6 from "../components/text-content/text-content-6";
 import SampleImage from "../components/SampleImage";
 import YellowArt from "../components/art-section/yellow";
+import GreenArt from "../components/art-section/green";
 import PurpleArt from "../components/art-section/purple";
 import BlueArt from "../components/art-section/blue";
 
@@ -34,6 +35,7 @@ export default function Home() {
           <TextContent2 />
           <DummyVideo />
           <TextContent3 />
+          <GreenArt />
           <TextContent4 />
           <SampleImage />
           <TextContent5 />

@@ -19,7 +19,7 @@ export default function Navbar() {
               <ChevronDownIcon className="w-4 h-auto pt-1" />
             </div>
             <Menu.Items className="font-semibold text-white">
-              <div className="absolute top-0 left-0 z-10 w-full h-full bg-abletonBlue">
+              <div className="absolute top-0 left-0 z-10 w-full bg-abletonBlue">
                 <div className="flex px-4 py-5 pl-6">
                   <div>
                     <img
@@ -68,7 +68,7 @@ export default function Navbar() {
                     <a href="#">More on Ableton.com</a>
                   </li>
                   <div>
-                    <ul className="flex flex-col items-start text-xs gap-y-4">
+                    <ul className="flex flex-col items-start mb-10 text-xs gap-y-4">
                       <li>
                         <a href="#">Blog</a>
                       </li>

@@ -17,6 +17,11 @@ export default function Navbar() {
               <p className="font-semibold">Menu</p>
               <ChevronDownIcon className="w-4 h-auto pt-1" />
             </div>
+            <Menu.Items className="">
+              <div className="absolute top-0 left-0 w-full bg-yellowArt">
+                <a>Hello</a>
+              </div>
+            </Menu.Items>
           </Menu.Button>
         </Menu>
       </div>

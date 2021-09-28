@@ -1,6 +1,6 @@
 export default function YellowArt() {
   return (
-    <div className="relative flex items-center my-12 h-yellowArtBH justify-evenly gap-x-7">
+    <div className="relative flex items-center my-12 lg:my-32 h-yellowArtBH justify-evenly gap-x-7">
       <div className="absolute right-0 z-0 bg-yellowArt w-yellowArtBW h-yellowArtBH"></div>
       <div className="z-10 ">
         <img

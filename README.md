@@ -10,6 +10,8 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 Preview the example live on <https://ableton-remake.vercel.app/>:
 
+![[project-example](https://ableton-remake.vercel.app)](./public/images/project-example.png)
+
 ## Tools used
 
 ### - Tailwind

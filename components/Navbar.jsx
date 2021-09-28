@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 export default function Navbar() {
   return (
     <header className="items-center justify-between px-4 py-5 pl-6 mx-auto border-b-2 border-gray-200 md:flex max-w-7xl">
-      <div className="flex ">
+      <div className="flex">
         <div>
           <img
             src="images/icons/ableton-icon.svg"
@@ -13,13 +13,84 @@ export default function Navbar() {
         </div>
         <Menu className="mx-10">
           <Menu.Button>
-            <div className="flex flex-row ">
+            <div className="z-20 flex flex-row ">
               <p className="font-semibold">Menu</p>
               <ChevronDownIcon className="w-4 h-auto pt-1" />
             </div>
-            <Menu.Items className="">
-              <div className="absolute top-0 left-0 w-full bg-yellowArt">
-                <a>Hello</a>
+            <Menu.Items className="font-semibold text-white">
+              <div className="absolute top-0 left-0 z-10 w-full h-full bg-abletonBlue">
+                <div className="flex px-4 py-5 pl-6">
+                  <div>
+                    <img
+                      src="images/icons/ableton-icon.svg"
+                      className="block w-auto h-7"
+                    />
+                  </div>
+                  <div className="z-20 flex flex-row mx-10 ">
+                    <p className="font-semibold">Menu</p>
+                    <ChevronDownIcon className="w-4 h-auto pt-1" />
+                  </div>
+                </div>
+                <ul className="flex flex-col items-start gap-6 px-3.5  font-semibold text-mediumFont ">
+                  <li>
+                    <a href="#">Live</a>
+                  </li>
+                  <li>
+                    <a href="#">Push</a>
+                  </li>
+                  <li>
+                    <a href="#">Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#">Packs</a>
+                  </li>
+                  <li>
+                    <a href="#">Help</a>
+                  </li>
+                  <li>
+                    <a href="#">Try Live for free</a>
+                  </li>
+                  <div>
+                    <ul className="flex flex-col items-start text-xs gap-y-4">
+                      <li>
+                        <a href="#">Account</a>
+                      </li>
+                      <li>
+                        <a href="#">Log Out</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <li>
+                    <a href="#">More on Ableton.com</a>
+                  </li>
+                  <div>
+                    <ul className="flex flex-col items-start text-xs gap-y-4">
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Ableton for the Classroom</a>
+                      </li>
+                      <li>
+                        <a href="#">Ableton for Colleges and Universities</a>
+                      </li>
+                      <li>
+                        <a href="#">Certified Training</a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-abletonOrange">
+                          About Ableton
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Jobs</a>
+                      </li>
+                    </ul>
+                  </div>
+                </ul>
               </div>
             </Menu.Items>
           </Menu.Button>

@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         abletonOrange: "#FF764D",
         abletonBlue: "#0000FF",
-        lemonade: "#FBFFA7",
+        yellowArt: "#FBFFA7",
         abletonGray: "#EEEEEE",
         backgroundGray: "#F3F3F3",
         blueArt: "#B1C5FF",
@@ -32,7 +32,6 @@ module.exports = {
       height: {
         halfScreen: "50vh",
         100: "48rem",
-        lemonadeBox: "58vh",
         "100em": "100em",
         "80rem": "80rem",
         "100rem": "100rem",
@@ -40,6 +39,9 @@ module.exports = {
         "41rem": "41rem",
         "50%": "50%",
         "50vh": "50vh",
+        yellowArt1H: "41.66667vw",
+        yellowArt2H: "25vw",
+        yellowArtBH: "58vw",
         greenArt12H: "25vw",
         greenArt3H: "41vw",
         greenArtBH: "75vw",
@@ -51,8 +53,10 @@ module.exports = {
         purpleArtBHpx: "933.33333px",
       },
       width: {
-        lemonadeBox: "58vh",
         "50vh": "50vh",
+        yellowArt1W: "41.66667vw",
+        yellowArt2W: "33.33333vw",
+        yellowArtBW: "58vw",
         greenArt12W: "33vw",
         greenArt3W: "41vw",
         greenArtBW: "58vw",

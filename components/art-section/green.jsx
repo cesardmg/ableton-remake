@@ -1,6 +1,6 @@
 export default function GreenArt() {
   return (
-    <div className="relative flex items-center mt-10 h-greenArtBH justify-evenly ">
+    <div className="relative flex items-center mt-10 lg:my-32 lg:overflow-hidden h-greenArtBH justify-evenly ">
       <div className="absolute left-0 z-0 bg-greenArt w-greenArtBW h-greenArtBH"></div>
       <div className="z-10 flex flex-col ">
         <img

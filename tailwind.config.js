@@ -44,8 +44,11 @@ module.exports = {
         greenArt3H: "41vw",
         greenArtBH: "75vw",
         purpleArt1H: "25vw",
+        purpleArt1Hpx: "400px",
         purpleArt2H: "41vw",
+        purpleArt2Hpx: "666.66667px",
         purpleArtBH: "58vw",
+        purpleArtBHpx: "933.33333px",
       },
       width: {
         lemonadeBox: "58vh",
@@ -54,8 +57,11 @@ module.exports = {
         greenArt3W: "41vw",
         greenArtBW: "58vw",
         purpleArt1W: "33vw",
+        purpleArt1Wpx: "533.33333px",
         purpleArt2W: "41vw",
+        purpleArt2Wpx: "666.66667px",
         purpleArtBW: "66vw",
+        purpleArtBWpx: "1066.66667px",
       },
       backgroundImage: {
         "purple-img1":

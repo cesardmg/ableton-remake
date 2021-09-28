@@ -5,7 +5,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 export default function Navbar() {
   return (
     <header className="items-center justify-between px-4 py-5 pl-6 mx-auto border-b-2 border-gray-200 md:flex max-w-7xl">
-      <div className="flex">
+      <div className="flex lg:hidden">
         <div>
           <img
             src="images/icons/ableton-icon.svg"
@@ -106,6 +106,63 @@ export default function Navbar() {
             </Transition>
           </Menu.Button>
         </Menu>
+      </div>
+
+      <div className="hidden px-4 lg:flex">
+        <div>
+          <img
+            src="images/icons/ableton-icon.svg"
+            className="block w-auto h-7"
+          />
+        </div>
+        <ul className="flex items-center gap-10 pl-10 font-semibold text-mediumFont ">
+          <li>
+            <a href="#">Live</a>
+          </li>
+          <li>
+            <a href="#">Push</a>
+          </li>
+          <li>
+            <a href="#">Link</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
+          <li>
+            <a href="#">Packs</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#" className="font-semibold text-abletonOrange">
+              More +
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="">
+        <ul className="items-center hidden gap-6 font-semibold lg:flex">
+          <li>
+            <a
+              href="#"
+              className="font-semibold text-mediumFont text-abletonBlue"
+            >
+              Try Live for free
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-sm">
+              Account
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-sm">
+              Log out
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
   );

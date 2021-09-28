@@ -18,92 +18,82 @@ export default function Navbar() {
               <p className="font-semibold">Menu</p>
               <ChevronDownIcon className="w-4 h-auto pt-1" />
             </div>
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-100"
-              enterFrom="transform opacity-0 scale-95"
-              enterTo="transform opacity-100 scale-100"
-              leave="transition ease-in duration-75"
-              leaveFrom="transform opacity-100 scale-100"
-              leaveTo="transform opacity-0 scale-95"
-            >
-              <Menu.Items className="font-semibold text-white">
-                <div className="absolute top-0 left-0 z-10 w-full h-full bg-abletonBlue">
-                  <div className="flex px-4 py-5 pl-6">
-                    <div>
-                      <img
-                        src="images/icons/ableton-icon.svg"
-                        className="block w-auto h-7"
-                      />
-                    </div>
-                    <div className="z-20 flex flex-row mx-10 ">
-                      <p className="font-semibold">Menu</p>
-                      <ChevronDownIcon className="w-4 h-auto pt-1" />
-                    </div>
+            <Menu.Items className="font-semibold text-white">
+              <div className="absolute top-0 left-0 z-10 w-full h-full bg-abletonBlue">
+                <div className="flex px-4 py-5 pl-6">
+                  <div>
+                    <img
+                      src="images/icons/ableton-icon.svg"
+                      className="block w-auto h-7"
+                    />
                   </div>
-                  <ul className="flex flex-col items-start gap-6 px-3.5  font-semibold text-mediumFont ">
-                    <li>
-                      <a href="#">Live</a>
-                    </li>
-                    <li>
-                      <a href="#">Push</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Shop</a>
-                    </li>
-                    <li>
-                      <a href="#">Packs</a>
-                    </li>
-                    <li>
-                      <a href="#">Help</a>
-                    </li>
-                    <li>
-                      <a href="#">Try Live for free</a>
-                    </li>
-                    <div>
-                      <ul className="flex flex-col items-start text-xs gap-y-4">
-                        <li>
-                          <a href="#">Account</a>
-                        </li>
-                        <li>
-                          <a href="#">Log Out</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <li>
-                      <a href="#">More on Ableton.com</a>
-                    </li>
-                    <div>
-                      <ul className="flex flex-col items-start text-xs gap-y-4">
-                        <li>
-                          <a href="#">Blog</a>
-                        </li>
-                        <li>
-                          <a href="#">Ableton for the Classroom</a>
-                        </li>
-                        <li>
-                          <a href="#">Ableton for Colleges and Universities</a>
-                        </li>
-                        <li>
-                          <a href="#">Certified Training</a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-abletonOrange">
-                            About Ableton
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">Jobs</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </ul>
+                  <div className="z-20 flex flex-row mx-10 ">
+                    <p className="font-semibold">Menu</p>
+                    <ChevronDownIcon className="w-4 h-auto pt-1" />
+                  </div>
                 </div>
-              </Menu.Items>
-            </Transition>
+                <ul className="flex flex-col items-start gap-6 px-3.5  font-semibold text-mediumFont ">
+                  <li>
+                    <a href="#">Live</a>
+                  </li>
+                  <li>
+                    <a href="#">Push</a>
+                  </li>
+                  <li>
+                    <a href="#">Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#">Packs</a>
+                  </li>
+                  <li>
+                    <a href="#">Help</a>
+                  </li>
+                  <li>
+                    <a href="#">Try Live for free</a>
+                  </li>
+                  <div>
+                    <ul className="flex flex-col items-start text-xs gap-y-4">
+                      <li>
+                        <a href="#">Account</a>
+                      </li>
+                      <li>
+                        <a href="#">Log Out</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <li>
+                    <a href="#">More on Ableton.com</a>
+                  </li>
+                  <div>
+                    <ul className="flex flex-col items-start text-xs gap-y-4">
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Ableton for the Classroom</a>
+                      </li>
+                      <li>
+                        <a href="#">Ableton for Colleges and Universities</a>
+                      </li>
+                      <li>
+                        <a href="#">Certified Training</a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-abletonOrange">
+                          About Ableton
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Jobs</a>
+                      </li>
+                    </ul>
+                  </div>
+                </ul>
+              </div>
+            </Menu.Items>
           </Menu.Button>
         </Menu>
       </div>
